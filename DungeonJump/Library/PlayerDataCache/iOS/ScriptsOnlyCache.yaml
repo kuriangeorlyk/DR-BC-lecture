@@ -1,6 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
+    - Readme
     - SetAnimatorParameter
     - StaticDmgHazard
     ChadwickSrc.dll:
@@ -83,47 +86,47 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 684}
+      Script: {instanceID: 698}
     - Class: 114
-      Script: {instanceID: 1784}
+      Script: {instanceID: 1862}
     - Class: 114
-      Script: {instanceID: 1790}
+      Script: {instanceID: 1868}
     - Class: 114
-      Script: {instanceID: 1860}
+      Script: {instanceID: 1976}
     - Class: 114
-      Script: {instanceID: 2044}
+      Script: {instanceID: 2106}
     - Class: 114
-      Script: {instanceID: 2330}
+      Script: {instanceID: 2216}
     - Class: 114
-      Script: {instanceID: 2448}
+      Script: {instanceID: 2562}
     - Class: 114
-      Script: {instanceID: 2646}
+      Script: {instanceID: 2748}
     - Class: 114
-      Script: {instanceID: 2764}
+      Script: {instanceID: 3020}
     - Class: 114
-      Script: {instanceID: 3422}
+      Script: {instanceID: 3166}
     - Class: 114
-      Script: {instanceID: 3700}
+      Script: {instanceID: 3682}
     - Class: 114
-      Script: {instanceID: 3788}
+      Script: {instanceID: 3938}
     - Class: 114
-      Script: {instanceID: 3792}
+      Script: {instanceID: 4324}
     - Class: 114
-      Script: {instanceID: 3834}
+      Script: {instanceID: 4452}
     - Class: 114
-      Script: {instanceID: 4012}
+      Script: {instanceID: 4456}
     - Class: 114
-      Script: {instanceID: 4032}
+      Script: {instanceID: 4510}
     - Class: 114
-      Script: {instanceID: 4078}
+      Script: {instanceID: 4732}
     - Class: 114
-      Script: {instanceID: 4298}
+      Script: {instanceID: 4764}
     - Class: 114
-      Script: {instanceID: 54580}
+      Script: {instanceID: 4824}
     - Class: 114
-      Script: {instanceID: 54582}
+      Script: {instanceID: 5070}
     - Class: 114
-      Script: {instanceID: 54584}
+      Script: {instanceID: 19130}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -361,6 +364,12 @@ ScriptsOnlyBuild:
     className: PlatformEnemyMovement
   - hash:
       serializedVersion: 2
+      Hash: cc2b265ea2f90c64c2bf3ce028447f93
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: CharacterController2D
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -431,6 +440,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TextMeshSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: d2eea4f305fd4606c0657611cbf6464b
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: SetAnimatorParameter
+  - hash:
+      serializedVersion: 2
+      Hash: 819e011b8ec7a08dc6dcbfa46222bc5f
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: FPPillar
   - hash:
       serializedVersion: 2
       Hash: bb8814741d7085ebb3d19a1a11769619
@@ -529,6 +550,12 @@ ScriptsOnlyBuild:
     className: PlayerDialogueTwo
   - hash:
       serializedVersion: 2
+      Hash: 337cca5c158606f019b9c625375db82a
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: CameraController
+  - hash:
+      serializedVersion: 2
       Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -619,6 +646,12 @@ ScriptsOnlyBuild:
     className: SpriteColorAnimation
   - hash:
       serializedVersion: 2
+      Hash: 0c830a2cd19fad7ac7ce121652a3ba9f
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: FPGrassLong
+  - hash:
+      serializedVersion: 2
       Hash: 0784d4fd5b93bd75440d01eb2fac4233
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -659,6 +692,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: Benchmark04
+  - hash:
+      serializedVersion: 2
+      Hash: e37915d517a823d53f692118279edded
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: FPFlower
   - hash:
       serializedVersion: 2
       Hash: 1951d8c0494c04061ef837a843e73413
@@ -769,6 +808,12 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: ac9571bd7a4e7010aa8c285816dbff29
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: HapticMovement
+  - hash:
+      serializedVersion: 2
       Hash: 44e660673da5f91267c6f82549829bce
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -829,6 +874,12 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
+      Hash: 3149e68b62b82493254e1c995849f227
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: AnimatedCharacterSelection
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -839,6 +890,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro
     className: TMP_TextEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 3d58f4fa4dbdb158c7f8a42077450055
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: FPTree
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -875,6 +932,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: VertexShakeB
+  - hash:
+      serializedVersion: 2
+      Hash: 41e77e55c75eabde2d516b83d9590fc6
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: FPCattail
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -931,10 +994,22 @@ ScriptsOnlyBuild:
     className: PostProcessEffectSettings
   - hash:
       serializedVersion: 2
+      Hash: 916664ba37b229117e0fda679e006ce2
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: AnimatedObjectsGroup
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3021c0200753e7383974645b8c524f0
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: StaggerAnimation
   - hash:
       serializedVersion: 2
       Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
@@ -1001,6 +1076,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8de3bf0ff069a28d45f5696214065053
+    assemblyName: KurianSrc.dll
+    namespaceName: 
+    className: FPCreeper
   - hash:
       serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
@@ -1277,85 +1358,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: AmbientOcclusion
-  - hash:
-      serializedVersion: 2
-      Hash: ac9571bd7a4e7010aa8c285816dbff29
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: HapticMovement
-  - hash:
-      serializedVersion: 2
-      Hash: cc2b265ea2f90c64c2bf3ce028447f93
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: CharacterController2D
-  - hash:
-      serializedVersion: 2
-      Hash: 3d58f4fa4dbdb158c7f8a42077450055
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: FPTree
-  - hash:
-      serializedVersion: 2
-      Hash: 0c830a2cd19fad7ac7ce121652a3ba9f
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: FPGrassLong
-  - hash:
-      serializedVersion: 2
-      Hash: 916664ba37b229117e0fda679e006ce2
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: AnimatedObjectsGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 337cca5c158606f019b9c625375db82a
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: CameraController
-  - hash:
-      serializedVersion: 2
-      Hash: 41e77e55c75eabde2d516b83d9590fc6
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: FPCattail
-  - hash:
-      serializedVersion: 2
-      Hash: d2eea4f305fd4606c0657611cbf6464b
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: SetAnimatorParameter
-  - hash:
-      serializedVersion: 2
-      Hash: 819e011b8ec7a08dc6dcbfa46222bc5f
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: FPPillar
-  - hash:
-      serializedVersion: 2
-      Hash: c3021c0200753e7383974645b8c524f0
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: StaggerAnimation
-  - hash:
-      serializedVersion: 2
-      Hash: 8de3bf0ff069a28d45f5696214065053
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: FPCreeper
-  - hash:
-      serializedVersion: 2
-      Hash: 3149e68b62b82493254e1c995849f227
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: AnimatedCharacterSelection
-  - hash:
-      serializedVersion: 2
-      Hash: e37915d517a823d53f692118279edded
-    assemblyName: KurianSrc.dll
-    namespaceName: 
-    className: FPFlower
   platform: 9
   scenePathNames:
   - Assets/Scenes/Platformer Levels/CoconutCave.unity
-  playerPath: C:/Users/kuria/OneDrive - University of Idaho/Desktop/IOS build
+  playerPath: /Users/josephinewicklund/Documents/TL6-Android-Build/ios app
