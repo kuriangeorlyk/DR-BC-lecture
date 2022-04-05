@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Platformer Levels/CoconutCave.unity
+- path: Assets/src/kurian/Player Character.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
